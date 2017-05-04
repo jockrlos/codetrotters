@@ -1,0 +1,102 @@
+.navbar ul{ /*Todo elemento UL dentro de la clase navbar le aplicaran estas propiedades */
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.navbar-horizontal ul{
+    background-color: #333;
+    padding: 9px 15%;
+    border-bottom: 2px green solid;
+} /*nav bar properties de color*/
+
+
+.navbar-horizontal ul li{ /* Esta clase acomoda los "botones" uno al lado del otro */
+    display: inline-block;
+}
+
+.navbar-horizontal ul li.item-right{
+    float: right;
+}
+
+.navbar-horizontal ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Aqui terminan las propiedades del Top Nav Bar */
+
+.banner{
+    background-color: blueviolet;
+    padding: 85px;
+    text-align: center;
+}
+
+h1{
+    color:white;
+}
+
+h3{
+    color:white;
+} /* si quiero darle color a todas las letras dentro de una clase tengo que hacerlo por separado? */
+
+/*#blockalignment{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+
+}
+
+#blockalignment li{
+    float: inline-block;
+}
+
+#blockalignment li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+
+.button{
+        border: white;
+        background-color: blueviolet;
+        text-decoration: none; 
+        font: menu; 
+        color: white;
+        display: inline-block; 
+        padding: 10px;
+    } /*Se declaran los botones de Sign Up y Log In */
+
+#main-content{
+    text-align: center;
+    background-color: lightgray
+}
+
+#features{
+    text-align: center;
+    background-color: white;
+    
+}
+
+.threeblocks{
+    float: left;
+    width: 275px;
+    height: 75px;
+    margin: 25px;
+    text-align: center;
+    background-color: white;
+    border: 3px solid black; 
+}
+
+
+.threeblocks-pic{
+    float: left;
+    width: 275px;
+    height: 75px;
+    margin: 25px;
+    text-align: center;
+}
+
