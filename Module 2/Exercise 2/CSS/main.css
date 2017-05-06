@@ -1,0 +1,83 @@
+*{
+    font-family: "Lato", Helvetica, sans-serif;
+    color: white;
+} /* Se declaran los fonts que se van a utilizar y el color */
+
+.container{
+    width: 80%;
+} /* container es la clase que llevara toda la pagina y donde estara el contenido */
+
+.content{
+    background-color: #232323;
+    overflow-x: hidden;
+    overflow-y: visible;
+    border-color: 0 black 0 black;
+    width: 75%;
+    height: 100%;
+    float: left;
+} /* clase con las propiedades para el contenido de la pagina */
+
+#navbar{
+    /*position: fixed;*/
+    height: 100%;
+    width: 15%;
+    background-color: #3A3939; 
+    float: left;
+    padding-bottom: 859px;
+} /* ID con propiedades para la barra de navegacion ubicada a la derecha de la pagina */
+
+
+#navbar ul{
+    list-style-type: none;
+    margin-top: -10px;
+    padding: 20px;
+    padding-left: 0px;
+} /* El navbar es hecho con una lista, aqui se establecen las propiedades de esa lista */
+
+#navbar ul li{
+    padding: 20px;
+} /* Propiedades de los elementos del navbar; en este caso el espacio entre cada opcion */
+
+#navbar ul li a{
+    text-decoration: none;
+} /* Propiedad para eliminar que las opciones del navbar esten underlined */
+
+#profile{
+    height: auto;
+    width: 100px;
+    position: center;
+    background-color: #232323;
+    padding: 7px;
+    padding-right: 43px;
+} /* Propiedades del profile picture encima del navbar */
+
+a:hover{
+    background-color: rgba(128, 128, 128, 0.14);
+    cursor: pointer;
+} /* Propiedades para cuando se hace hover-over de las opciones del navbar */
+
+.active{
+    border-right: 5px #2ebd59;
+    background-color: rgba(128, 128, 128, 0.04);
+} /* Clase para poder marcar la opcion seleccionada del navbar con color verde en la parte derecha */
+
+.card{
+    margin: 10px;
+    background-color: #3A3939;
+    max-width: 350px;
+    border: black;
+    border-radius: 3px; 
+    float: left;
+} /* Clase con propiedades del container de cada articulo de la pagina */
+
+.summary{
+    padding: 2px 6px;
+    color: #B1B1B1;
+} /* Clase con las propiedades del contenido de cada container box */
+
+.img{
+    width: 350px;
+    margin-left: -6px;
+    margin-top: -2px;
+} /* Clase con propiedades para la imagen de cada articulo */
+
