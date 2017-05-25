@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Javascript</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <form method="POST" action=""> <!-- "action" es para la parte backend, a donde enviarias la info recopilada del form (webpage, servidor, etc) -->
+            <label>Nombre Completo: </label><input type="text" id="full-name" name="full-name" /> <!-- Hay atributos para cada input, por ejemplo "max-length" que limita la cantidad de caracteres de texto -->
+            <label>Edad: </label><input type="number" id="age" name="age" /> <!-- el ID puede ser igual al name -->
+            <label>Color favorito: </label><input type="color" id="favorite-color" name="favorite-color" />
+            <button type="submit">Submit</button>
+        </form>
+
+        <br>
+
+        <!-- Otro ejemplo: checkbox -->
+
+        <form methon="POST">
+            <input type="checkbox" name="hobbies[]" value="Pasatiempo 1"> <!-- [] indica que es una lista -->
+            <input type="checkbox" name="hobbies[]" value="Pasatiempo 2"> <!-- si quieres el valor de algo de la lista: document.getElementByName(hobbies[])[0 o el numero indice que sea].value -->
+            <input type="checkbox" name="hobbies[]" value="Pasatiempo 3">
+            <input type="checkbox" name="hobbies[]" value="Pasatiempo 4">
+            <input type="checkbox" name="hobbies[]" value="Pasatiempo 5">
+            <button type="submit">Submit</button>
+        </form>
+
+
+    </body>
+
+</html>
