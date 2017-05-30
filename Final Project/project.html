@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Final Project</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<style>
+    .backgroundColor{
+        background-color: lightgray;
+    }
+    .container{
+       padding-top: 50px;
+       padding-left: 90px;
+    }
+
+    .topSection{
+        background-color: white;
+        border: solid black;
+        border-radius: 5px;
+    }
+
+    .profilePic{
+        margin: 50px;
+        width: 300px;
+        /*padding: 10px;*/
+        border: solid blue;
+        border-radius: 5px;
+    }
+
+    .aboutMe{
+        margin: 50px;
+    }
+
+    .skillsContainer{
+        background-color: white;
+        border: solid black;
+        border-radius: 5px;
+       
+    }
+
+    .expWrapper{
+        background-color: white;
+        border: solid black;
+        border-radius: 5px;
+    }
+
+    .educationWrapper{
+        background-color:white;
+        border: solid black;
+        border-radius: 5px;
+    }
+
+    .additionalInfo{
+        margin: 50px;
+    }
+
+    .skillsGraph{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+</style>
+
+</head>
+
+
+<body>
+    <div class="backgroundColor">
+ <div class="container">
+    <div class="topSection"> <!-- Parte superior: intro/foto/contact me -->
+        <div class="row">
+            <div class="col-md-4">
+                <img class="profilePic" src="http://ittalentsearch.com/wp-content/uploads/2015/02/man-profile-300x300.png" />
+                <p>SOME TEXT</p>
+
+            </div>
+
+            <div class="col-md-8">
+                <p class="aboutMe">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                <div class="col-md-6"> <!-- Additional Info Column Left -->
+                    <p class="additionalInfo">Test</p>
+                </div>
+                <div class="col-md-6"> <!-- Additional Info Column Right -->
+                    <p class="additionalInfo">Test</p>
+                </div>
+            </div>
+        </div> <!-- End of columns 8 -->
+
+    </div> <!-- End of top container -->
+
+<br>
+<br>
+<br>
+
+    <div> <!-- Skills -->
+            <div class="row">
+            <div class="col-md-5">
+                <div class="col-md-12 skillsContainer">
+                <h2>SKILLS - 2nd section</h2>
+                <img class="skillsGraph" src="/Users/JC/Desktop/Screenshot.png" />
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <div class="col-md-12 skillsContainer">
+                <h2>SKILLS - 2nd section</h2>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+    <div class="educationWrapper"> <!-- Education -->
+        <h2>Education</h2>
+    </div>
+
+<br>
+<br>
+<br>
+
+    <div> <!-- Experience -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="col-md-12 expWrapper">
+                <h3>Exp. 1</h3>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Readmore1">Read More</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="col-md-12 expWrapper">
+                <h3>Exp. 2</h3>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Readmore1">Read More</button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="col-md-12 expWrapper">
+                <h3>Exp. 3</h3>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Readmore1">Read More</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div> <!-- Education -->
+
+    </div>
+
+
+<!-- Modals Section -->
+
+
+    <!-- Modal 1 -->
+          <div class="modal fade" id="Readmore1" role="dialog">
+           <div class="modal-dialog">
+    
+         <!-- Modal content Article 1 -->
+              <div class="modal-content">
+             <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+             <h4 class="modal-title">Tech has more of an exclusion problem than a culture problem</h4>
+             </div>
+            <div class="modal-body">
+              <img class="modalImage" src="https://tctechcrunch2011.files.wordpress.com/2016/05/tcdisrupt_ny16-8962.jpg?w=738">
+             <p>The tech industry's diversity problems are exacerbated by its obsession with genius coders and brilliant founders, Carissa Romero, a partner at the diversity consulting startup Paradigm, said today at TechCrunch Disrupt NY. <br><br>Romero, who took part in a panel of diversity advocates, said that the mentality that geniuses are born rather than created through experience and practice can be alienating for people who don't fit the stereotype of the average tech worker: young, white, straight male, probably rocking a hoodie. <br><br>Diversity - or the lack of it - became a major focus in tech several years ago when companies like Google and Facebook followed Pinterest's lead and released hard data about the gender and racial makeup of their workforces. <br><br>The numbers confirmed the well-worn stereotype that tech companies are mostly staffed by white men, and kicked off conversations about how to level the playing field. But now, those conversations have started to shift. <br><br>With hard data out on the table, companies have started to diversify their new hires and are beginning to focus on building inclusive cultures so they can retain staff. <br><br>Erica Baker, an engineer and diversity advocate at Slack, and Danielle Brown, head of diversity and inclusion at Intel, joined Romero in that conversation today at TechCrunch Disrupt NY.</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default closeButton" data-dismiss="modal">Close</button>
+          </div>
+             </div>
+           </div>
+          </div>
+
+
+
+          <!-- Modal 1 -->
+          <div class="modal fade" id="Readmore1" role="dialog">
+           <div class="modal-dialog">
+    
+         <!-- Modal content Article 1 -->
+              <div class="modal-content">
+             <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+             <h4 class="modal-title">Tech has more of an exclusion problem than a culture problem</h4>
+             </div>
+            <div class="modal-body">
+              <img class="modalImage" src="https://tctechcrunch2011.files.wordpress.com/2016/05/tcdisrupt_ny16-8962.jpg?w=738">
+             <p>The tech industry's diversity problems are exacerbated by its obsession with genius coders and brilliant founders, Carissa Romero, a partner at the diversity consulting startup Paradigm, said today at TechCrunch Disrupt NY. <br><br>Romero, who took part in a panel of diversity advocates, said that the mentality that geniuses are born rather than created through experience and practice can be alienating for people who don't fit the stereotype of the average tech worker: young, white, straight male, probably rocking a hoodie. <br><br>Diversity - or the lack of it - became a major focus in tech several years ago when companies like Google and Facebook followed Pinterest's lead and released hard data about the gender and racial makeup of their workforces. <br><br>The numbers confirmed the well-worn stereotype that tech companies are mostly staffed by white men, and kicked off conversations about how to level the playing field. But now, those conversations have started to shift. <br><br>With hard data out on the table, companies have started to diversify their new hires and are beginning to focus on building inclusive cultures so they can retain staff. <br><br>Erica Baker, an engineer and diversity advocate at Slack, and Danielle Brown, head of diversity and inclusion at Intel, joined Romero in that conversation today at TechCrunch Disrupt NY.</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default closeButton" data-dismiss="modal">Close</button>
+          </div>
+             </div>
+           </div>
+          </div>
+
+
+
+
+          <!-- Modal 1 -->
+          <div class="modal fade" id="Readmore1" role="dialog">
+           <div class="modal-dialog">
+    
+         <!-- Modal content Article 1 -->
+              <div class="modal-content">
+             <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+             <h4 class="modal-title">Tech has more of an exclusion problem than a culture problem</h4>
+             </div>
+            <div class="modal-body">
+              <img class="modalImage" src="https://tctechcrunch2011.files.wordpress.com/2016/05/tcdisrupt_ny16-8962.jpg?w=738">
+             <p>The tech industry's diversity problems are exacerbated by its obsession with genius coders and brilliant founders, Carissa Romero, a partner at the diversity consulting startup Paradigm, said today at TechCrunch Disrupt NY. <br><br>Romero, who took part in a panel of diversity advocates, said that the mentality that geniuses are born rather than created through experience and practice can be alienating for people who don't fit the stereotype of the average tech worker: young, white, straight male, probably rocking a hoodie. <br><br>Diversity - or the lack of it - became a major focus in tech several years ago when companies like Google and Facebook followed Pinterest's lead and released hard data about the gender and racial makeup of their workforces. <br><br>The numbers confirmed the well-worn stereotype that tech companies are mostly staffed by white men, and kicked off conversations about how to level the playing field. But now, those conversations have started to shift. <br><br>With hard data out on the table, companies have started to diversify their new hires and are beginning to focus on building inclusive cultures so they can retain staff. <br><br>Erica Baker, an engineer and diversity advocate at Slack, and Danielle Brown, head of diversity and inclusion at Intel, joined Romero in that conversation today at TechCrunch Disrupt NY.</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default closeButton" data-dismiss="modal">Close</button>
+          </div>
+             </div>
+           </div>
+          </div>
+
+ </div> <!-- End of container -->
+    </div>
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
